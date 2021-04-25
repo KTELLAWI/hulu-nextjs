@@ -6,7 +6,7 @@ dotenvLoad();
 
 const nextConfig = {
   images: {
-    domains: ['links.papareact.com','image.tmdb.org']
+    domains: ['links.papareact.com','image.tmdb.org/t/p/original/']
   },
  
 }
