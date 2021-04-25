@@ -1,15 +1,15 @@
-const withPlugins = require('next-compose-plugins')
-const withImages = require('next-images')
-const dotenvLoad = require('dotenv-load');
+//const withPlugins = require('next-compose-plugins')
+////const withImages = require('next-images')
+//const dotenvLoad = require('dotenv-load');
  
-dotenvLoad();
+//dotenvLoad();
 
-const nextConfig = {
+module.exports = {
   images: {
-    domains: ['links.papareact.com','image.tmdb.org/t/p/original/']
+    domains: ['links.papareact.com','image.tmdb.org']
   },
  
 }
-module.exports = withPlugins([[withImages]], nextConfig)
+//module.exports = withPlugins([[withImages]], nextConfig)
 
 
